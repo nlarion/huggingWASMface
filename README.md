@@ -7,4 +7,4 @@ default vocab and merges taken from gpt2. those are then pasted into the lib.rs 
 ```console
 wasm-pack build --target web
 ```
-## if you dont know what 
+## TL;DR: you can get tokens from huggingface's tokenizer in WASM
