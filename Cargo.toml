@@ -10,6 +10,8 @@ crate-type = ["cdylib"]
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.59"
+serde_derive = "1.0.80"
 wasm-bindgen = { version = "0.2.73", features = ["serde-serialize"]}
 tokenizers = { version="*", git = "https://github.com/nlarion/tokenizers" }
 console_error_panic_hook = "0.1.6"
